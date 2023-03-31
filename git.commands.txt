@@ -1,0 +1,35 @@
+// Firstly initialization
+    => git init
+// integrate remote(repository ko link: i.e  github, gitlab, bitbucket) with your local 
+    => git remote add <name> <url>
+    where
+    <name> is the name for your remote
+    <url> is the link for your remote
+
+// to push or pull the code
+step1 : to add the files
+    => git add .
+    * adds all the changes
+    # To add specific files only
+        => git add <filename> ex: git add git_intro.js
+step2: To commit(to update the changed codes)
+    => git commit -m "message"
+step3: Pull the code(Optional)
+    => git pull <name> <branch> : name = remeote name ; master branch 
+    e.g. git pull origin master
+step4: conflict resolution(optional)
+    - you need to resolve the conflict
+    - after resolution, repeat step 1, 2
+step5: Tp push the code
+    => git push <name> <branch>
+
+    => git push <name> <branch>:<remote_branch> 
+    -- example: git push origin master:shiva
+thenafter I pulled the code using the command :: git pull origin shiva(I pulled directly without adding and commiting )
+Again I commited then I pushed the code using these commands
+<<<git add array_pr_01.js
+git commit -m "adding to shiva branch"
+git push origin master:shiva>>>
+<git push origin master:shiva> yeti matra garda push hudaina so follow 2 steps earlier: pull ma chai siddhai :: git pull origin shiva:: yetti garda pani vako thyo
+
+
