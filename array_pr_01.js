@@ -55,6 +55,10 @@ let result = expo(4, 4);
 console.log(result);
 
 
+function eval(x, y){
+    return x**0.5 + y**0.5;
+}
 
+console.log(eval(25, 16));
 
 
