@@ -1,4 +1,3 @@
-
 // create an array of 10 elements with the following properties. Also print those values
 // ProductName: Product One, Price: 10000, Discount: 10%, Brand: Brand One
 // use can use =>>> node array_pr_01.js to run the code or directly use RUN Button
@@ -41,8 +40,13 @@ console.log("Product Name:", products[7][0], ", Price:", products[7][1], ", Disc
 console.log("Product Name:", products[8][0], ", Price:", products[8][1], ", Discount:", products[8][2], ", Brand:", products[8][3]);
 console.log("Product Name:", products[9][0], ", Price:", products[9][1], ", Discount:", products[9][2], ", Brand:", products[9][3]);
 
-
-
+// making simple object of arrays: to pull the code
+let items = {
+    arr1: [545454, "String", true, [], {name:"shiva", address: "kTown"}],
+    arr2: [[], [], ["goatX"]],
+    arr3: []
+}
+console.log(items);
 
 
 
