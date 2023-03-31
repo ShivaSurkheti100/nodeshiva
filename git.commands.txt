@@ -27,11 +27,48 @@ step5: Tp push the code
     -- example: git push origin master:shiva
 thenafter I pulled the code using the command :: git pull origin shiva(I pulled directly without adding and commiting )
 Again I commited then I pushed the code using these commands
+// yo chai feri specific file ko lagi ho hai 
 <<<git add array_pr_01.js
 git commit -m "adding to shiva branch"
 git push origin master:shiva>>>
 <git push origin master:shiva> yeti matra garda push hudaina so follow 2 steps earlier: pull ma chai siddhai :: git pull origin shiva:: yetti garda pani vako thyo
 < ani if naya file local ma create gareko xa ani tyo file ya tesko codes repo ma push garna paryo 
-vane follow the same above steps > fine 
+vane follow the same above steps > 
+// even if new files is created and codes committed in any existing files then it can be pushed to repo using 
+<<<git add .
+git commit -m "adding all the files "
+git push origin master:shiva>>>
 
+
+// to view all the local branch
+    => git branch
+
+// to checkout to a new branch from current 
+    # code should be committed (step 1 and step 2 should be followed)
+    => git checkout -b <new_branch>
+    ex: git add .
+    git commit -m "git file changed"
+    git checkout -b GoatX (new branch create vayo)
+    git branch
+
+    ## git checkout master (to switch to master branch)
+    ## git checkout GoatX (to switch to GoatX branch)
+    ## git push origin GoatX ( naya branch aauxa repo ma )
+    ## git push origin GoatX:master(to push from GoatX branch to master branch)
+    ## 
+// to see the git status
+    => git status
+
+// to view all the log(repository's history)
+    => git log                                  // by the way use <clear> to switch to current directory and <cd> cd (change directory) ((Command used to switch the directory (path) in which you are working)) to go the directory i.e Example: cd\windows\system32 Will move the prompt to the system32 folder path located in the Windows folder. 
+
+// to merge local branche(e,g GoatX)
+    => first checkout(switch) to destination branch(e.g master) ==> git checkout master 
+    => git merge <source(local branch)> ==> git merge GoatX
+
+// to remove all the changes that is not being committed(e.g yei file ma change gareko sab lines lai remove handinxa jun chai commit garko xaina  ) 
+    => git stash
+
+
+   
 
