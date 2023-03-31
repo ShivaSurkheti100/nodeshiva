@@ -46,7 +46,7 @@ let items = {
     arr2: [[], [], ["goatX"]],
     arr3: []
 }
-console.log(items);
+console.log(typeof(items));
 
 
 
