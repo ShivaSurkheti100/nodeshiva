@@ -69,6 +69,7 @@
                     let result = addNumber(a, b);
                     console.log(result);
                 }
+                
                 printSum(5); // returns NaN
                 
         // default value in function means the value which make no change in the output of the func
