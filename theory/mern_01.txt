@@ -1,0 +1,69 @@
+MongDB--> NoSQL Database
+Express.js --> Node based Framework
+React --> Node based Library, UI Components
+Node.js --> Server runtime Environment
+
+Node + Express + MongoDb => BackEnd/ API
+Node + React = FrontEnd
+
+Node js 
+- open source
+use => node --version to check the version
+=> npm 
+npm is Node package manager
+==> npx
+npx is also Node package manager
+
+--> Environment setup means Path setup
+ 
+ // Prerequisties to learn MERN
+ - Basic knowledge of web
+ - Node js
+ - MongoDb
+ - Postman
+ - Git
+ - VS Code
+ - Mongo Compass
+
+ // Web Working Principle
+
+- DNS(Domain Name system)
+  - 127.0.0.1(local host)
+  - name=>Server name/ Domain
+
+-Complete URL Format
+    - protocol://domain:port/path?query 
+    - https://daraz.com.np/smartphone
+
+- Server
+   -Protocol
+        -http, https
+    -method(http verbs, restful services, http methods)
+        -get, post, put, patch, delete
+    -Path
+        -folder or Path
+    -request/data 
+        -headers, data, cookie, session, authorization
+    -query
+        -optional(?)
+    -port 
+        -service, http => 80 , https => 443 (Default port no. ) and this is not used for development server or local host
+
+- Web 
+    -Dynamic Web
+        -content frequently changes
+        -CMS 
+    -Static Web 
+        -html/css, js 
+        -to change the content, code needs to be updated
+
+- MERN Usage
+    - Event driven project/program
+    - Asynchronous call/program
+    - Single page application(SPA) development
+
+- Naming Convention for File/folder
+    - Always use small letter
+    - only Alpha numeric name with either - or _ as a separator
+    - E.g shiva-surkheti.js, shiva_surkheti.js 
+

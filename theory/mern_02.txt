@@ -1,0 +1,39 @@
+
+-use terminal to run .js code.
+   
+     - type < node index.js >
+
+###(ECMAScript) is the official name of the language. 
+ECMAScript versions have been abbreviated to ES1, ES2, ES3, ES5, and ES6.
+ES6	ECMAScript 2015
+Since 2016, versions are named by year (ECMAScript 2016, 2017, 2018, 2019, 2020).
+
+### joining multiple words into one variable name
+Hyphens are not allowed in JavaScript. They are reserved for subtractions.
+
+Underscore:
+first_name, last_name, master_card, inter_city.
+
+Upper Camel Case (Pascal Case):
+FirstName, LastName, MasterCard, InterCity.
+
+Lower Camel Case:
+JavaScript programmers tend to use camel case that starts with a lowercase letter:
+firstName, lastName, masterCard, interCity.
+
+#### JavaScript Identifiers
+All JavaScript variables must be identified with unique names.
+
+These unique names are called identifiers.
+
+Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
+
+The general rules for constructing names for variables (unique identifiers) are:
+
+Names can contain letters, digits, underscores, and dollar signs.
+Names must begin with a letter.
+Names can also begin with $ and _ (but we will not use it in this tutorial).
+Names are case sensitive (y and Y are different variables).
+Reserved words (like JavaScript keywords) cannot be used as names.
+
+###
