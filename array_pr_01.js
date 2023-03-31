@@ -40,13 +40,19 @@ console.log("Product Name:", products[7][0], ", Price:", products[7][1], ", Disc
 console.log("Product Name:", products[8][0], ", Price:", products[8][1], ", Discount:", products[8][2], ", Brand:", products[8][3]);
 console.log("Product Name:", products[9][0], ", Price:", products[9][1], ", Discount:", products[9][2], ", Brand:", products[9][3]);
 
-// making simple object of arrays: to pull the code
+// making simple object of arrays: to pull and push the codes(git ko concept bujna lai )
 let items = {
     arr1: [545454, "String", true, [], {name:"shiva", address: "kTown"}],
     arr2: [[], [], ["goatX"]],
     arr3: []
 }
 console.log(typeof(items));
+
+const expo = (num, pow) => {
+    return num**pow;
+}
+let result = expo(4, 4);
+console.log(result);
 
 
 
