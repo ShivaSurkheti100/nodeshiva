@@ -31,5 +31,7 @@ Again I commited then I pushed the code using these commands
 git commit -m "adding to shiva branch"
 git push origin master:shiva>>>
 <git push origin master:shiva> yeti matra garda push hudaina so follow 2 steps earlier: pull ma chai siddhai :: git pull origin shiva:: yetti garda pani vako thyo
+< ani if naya file local ma create gareko xa ani tyo file ya tesko codes repo ma push garna paryo 
+vane follow the same above steps > fine 
 
 
