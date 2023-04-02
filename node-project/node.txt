@@ -1,0 +1,10 @@
+// node => not a framework
+    => just a run time environment
+    => use (node -v or node --version) to check out node version
+    => use (npm -v or npm --version ) to check the version of npm 
+    => npm = node package manager(js package manager)
+    => npm is used to download JavaScript packages from Node Package Manager
+    => npx is used to execute downloaded JavaScript packages.
+    >> npx stands for Node Package eXecute. It is simply an npm package runner
+    => npmjs.com(custom package) and nodejs(default packages).org are the websites which you need to know 'bout
+    
